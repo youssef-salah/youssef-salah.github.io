@@ -1,0 +1,29 @@
+.header{
+	height: 10rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 5;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__middle{
+	display: none;
+}
+.header__left{
+	display: block;
+	overflow: hidden;
+	padding: 0 50%;
+
+}
+.header__logo{
+	height: 100%;
+	width: 15rem;
+
+}
+
+.header__right{
+	display: none;
+}
