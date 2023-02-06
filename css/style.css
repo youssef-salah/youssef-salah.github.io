@@ -1,0 +1,403 @@
+body{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    overflow-x: hidden;
+}
+
+.backgd{
+    height: 650px;
+    background-image: url(../img/hi.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 50%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.nav-bar{
+    height: 80px;
+}
+
+.logo{
+    background-image: url(../img/Untitled\(2\).png);
+    width: 100%;
+    height: 80px;
+    padding-top: 25px;
+    transform: translateX(10%);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    display: block;
+}
+.content{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+h1{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 30px;
+    height: 240px;
+    width: 720px;
+    letter-spacing: 1.6px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+}
+
+.whoweare{
+    margin-top: 0px;
+    margin-left: 0;
+    padding-left: 0;
+    width: 750px;
+    padding-top: 0px;
+    font-weight:500;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    height: 200px;
+    line-height: 20px;
+}
+
+.partnerscontainer{
+    padding-left: 10%;
+    overflow-x:hidden;
+    padding-right: 10%;
+}
+
+.partnerscontainer .partnerlogo .img{
+    box-shadow: 0 4px 8px 0 rgba(73, 72, 72, 0.24), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    border-style:inherit;
+    border-radius: 15px;
+    margin-right: 80px;
+    width: 100px;
+    margin-bottom:35px ;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.0);
+
+
+}
+.partnerscontainer .partnerlogo .img img{
+    
+    width: 90px;
+    height: 50px;
+    align-items: center;
+    transform: translateX(5px);
+}
+
+
+
+
+
+.ABTN{
+    width: 170px;
+    height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: large;
+    display: inline-block;
+    color: black;
+    transition-duration: 0.4s;
+    align-content: center;
+    text-decoration: none;
+}
+
+.ABTN:hover {
+    background-color: rgba(0, 0, 40, 0.5);
+    color: white;
+}
+
+._btn{
+    transform: translateY(50%);
+}
+
+.partnerscontainer .title h2{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 40, 0.8);
+}
+
+
+/* **************************************** */
+
+.services{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.services .main-block{
+    width:80% ;
+    margin-left: 10%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.services .main-block .firstblock{
+    width: 30%;
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 0px;
+
+}
+
+.services .main-block .firstblock .left{
+    width: 55px;
+    height: 55px;
+}
+
+.services .main-block .firstblock .left img{
+    width: 70px;
+    transform: translateX(-10px);
+}
+
+.services .main-block .firstblock .right {
+    display: inline-block;
+    transform: translateY(-60%);
+    padding-left: 65px;
+    line-height: 30px;
+    padding-top: 0px;
+}
+
+.services .main-block .firstblock .right .title{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.services .main-block .firstblock .right .disc{
+    display: inline-block;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* ///////////////////// */
+
+.services .main-block .secondblock{
+    width: 30%;
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 0px;
+
+}
+
+.services .main-block .secondblock .left{
+    width: 55px;
+    height: 55px;
+}
+
+.services .main-block .secondblock .left img{
+    width: 70px;
+    transform: translateX(-10px);
+}
+
+.services .main-block .secondblock .right {
+    display: inline-block;
+    transform: translateY(-75%);
+    padding-left: 70px;
+    line-height: 30px;
+    padding-top: 0px;
+}
+
+.services .main-block .secondblock .right .title{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.services .main-block .secondblock .right .disc{
+    display: inline-block;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* ///////////////////////////////////// */
+
+.services .main-block .thirdblock{
+    width: 30%;
+    display: inline-block;
+    margin-left: 30px;
+    padding-top: 0px;
+
+}
+
+.services .main-block .thirdblock .left{
+    width: 55px;
+    height: 55px;
+}
+
+.services .main-block .thirdblock .left img{
+    width: 70px;
+    transform: translateX(-10px);
+}
+
+.services .main-block .thirdblock .right {
+    display: inline-block;
+    transform: translateY(-75%);
+    padding-left: 70px;
+    line-height: 30px;
+    padding-top: 0px;
+}
+
+.services .main-block .thirdblock .right .title{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.services .main-block .thirdblock .right .disc{
+    display: inline-block;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+/*//////////////////// footer ////////////////////////////////// */
+/* ///////////left-bar////////////////// */
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(30, 41, 46, 1);
+    overflow-y: hidden;
+}
+
+footer .left-bar{
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+}
+
+footer .left-bar .left-content{
+    height: 100%;
+    width: 80%;
+    display: inline-block;
+    padding-top: 10%;
+    padding-left: 20%;
+    padding-right: 10%;
+}
+
+
+footer .left-bar .left-content .location-items .icon{
+    width: 40px;
+    height: 40px;
+}
+footer .left-bar .left-content .location-items .content{
+    height: 50px;
+    width: 80%;
+    overflow-y: hidden;
+    padding-left: 10%;
+    transform: translateY(-90%);
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+footer .left-bar .left-content .location-items .content .st-no{
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+}
+
+
+footer .left-bar .left-content .landline-phone .content{
+    height: 50px;
+    width: 80%;
+    overflow-y: hidden;
+    padding-left: 10%;
+    transform: translateY(-90%);
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+footer .left-bar .left-content .landline-phone .content{
+    letter-spacing: 0.1em;
+}
+
+footer .left-bar .left-content .phone-items .content{
+    height: 50px;
+    width: 80%;
+    overflow-y: hidden;
+    padding-left: 10%;
+    transform: translateY(-90%);
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+footer .left-bar .left-content .phone-items .content{
+    letter-spacing: 0.1em;
+}
+
+
+footer .left-bar .left-content .emails-items .content{
+    height: 80px;
+    width: 80%;
+    overflow-y: hidden;
+    padding-left: 10%;
+    transform: translateY(-90%);
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.8);
+
+}
+footer .left-bar .left-content .emails-items .content{
+    letter-spacing: 0.1em;
+    transform: translateY(-50px);
+}
+/* ////////////////////////////////right-bar//////////////////////// */
+
+footer .right-bar{
+    height: 100%;
+    width: 50%;
+    overflow-y: hidden;
+    padding-left: 50%;
+    transform: translateY(-100%);
+    display: inline-block;
+}
+
+
+footer .right-bar .right-content{
+    width :60%;
+    height: 100%;
+    padding-top: 10%;
+    padding-right: 10%;
+
+  
+}
+
+footer .right-bar .right-content .title{
+    
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Roboto', sans-serif;
+}
+
+footer .right-bar .right-content .content{
+    font-weight: 100;
+    line-height: 20px;
+    padding-left: 0px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Roboto', sans-serif;
+}
