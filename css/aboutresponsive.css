@@ -1,0 +1,17 @@
+@media screen and (max-width: 767px) {
+
+.page{
+    overflow-x: hidden;
+}
+.topping{
+    
+    background-repeat: no-repeat;
+    background-position: -50px;
+    position: relative;
+    background-image: url(/img/profile/banner.jpg);
+    background-size: cover;
+    
+
+}
+
+}
