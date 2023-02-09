@@ -6,7 +6,7 @@
 .topping{
     
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: -50px;
     position: relative;
     background-image: url(/img/profile/banner.jpg);
     background-size: cover;
