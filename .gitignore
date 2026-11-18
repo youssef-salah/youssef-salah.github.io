@@ -1,0 +1,6 @@
+# Exclude large source profile PDF (not needed to serve the website)
+Friends Profile 2026.pdf
+
+# OS & editor files
+.DS_Store
+Thumbs.db
